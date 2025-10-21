@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08aafd976e6d4d23a17eb4bdf7595661, type: 3}
+  m_Name: DefaultBoot
+  m_EditorClassIdentifier: 
+  moduleBindings:
+  - primary: Test.Tokens.Abstractions.ITokensModule, Test.Tokens, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    secondary: Test.Tokens.TokensModule, Test.Tokens, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    primaryScript: {fileID: 11500000, guid: b4a73322fb2e42809124b0840ae1ffbc, type: 3}
+    secondaryScript: {fileID: 11500000, guid: a06a55dd797444b496eb1bd5c487184c, type: 3}
+  - primary: Test.Location.Abstractions.ILocationsModule, Test.Location, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    secondary: Test.Location.LocationsModule, Test.Location, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    primaryScript: {fileID: 11500000, guid: d995e9e8cecb4d83bf07afdcf04e5e55, type: 3}
+    secondaryScript: {fileID: 11500000, guid: e61c200e1363486db80d913298b71192, type: 3}
+  - primary: Test.Vip.Abstractions.IVipModule, Test.Vip, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    secondary: Test.Vip.VipModule, Test.Vip, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    primaryScript: {fileID: 11500000, guid: 52ebdfabda044f5aaece2818ed783140, type: 3}
+    secondaryScript: {fileID: 11500000, guid: a8ec409848ab4d489e579019d3f0e300, type: 3}
+  - primary: Test.Shop.Abstractions.IShopModule, Test.Shop, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    secondary: Test.Shop.ShopModule, Test.Shop, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    primaryScript: {fileID: 11500000, guid: 183c5945784145189703c4d44b518107, type: 3}
+    secondaryScript: {fileID: 11500000, guid: 58dbc142df524ba8b407cb3899047368, type: 3}
+  resourceBindings:
+  - type: Test.Tokens.Data.TokensModuleData, Test.Tokens, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    data: {fileID: 11400000, guid: 7835cba5fa148463da74e10f29c56758, type: 2}
+    script: {fileID: 11500000, guid: f2eae27d09cd4f158ca715e7eceac76f, type: 3}
+  - type: Test.Location.Data.LocationsModuleData, Test.Location, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    data: {fileID: 11400000, guid: 167abc3558c6e46cf88e6206c08fc1dd, type: 2}
+    script: {fileID: 11500000, guid: 072ac9cef1b94b059af5821a0861c743, type: 3}
+  - type: Test.Vip.Data.VipModuleData, Test.Vip, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    data: {fileID: 11400000, guid: f259cb30841644a1e9a0d228dec0f65f, type: 2}
+    script: {fileID: 11500000, guid: cea35e7f269b4e719a8c6b4a2f4e76b1, type: 3}
+  - type: Test.Shop.Data.ShopModuleData, Test.Shop, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    data: {fileID: 11400000, guid: af19416a12f194f29b8e72ecc7cc02a5, type: 2}
+    script: {fileID: 11500000, guid: edf10c2e72fb429cb6e826bfa8e5420c, type: 3}
+  worldScene: {fileID: 11400000, guid: a267627b77d534394b63ca92b662f38c, type: 2}

@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf10c2e72fb429cb6e826bfa8e5420c, type: 3}
+  m_Name: ShopModuleData
+  m_EditorClassIdentifier: 
+  shop:
+    shopBinding:
+      owner: {fileID: 11400000, guid: a267627b77d534394b63ca92b662f38c, type: 2}
+      property: Canvas/Body/Shop
+      value: {fileID: 0}
+    shopItemBinding:
+      owner: {fileID: 0}
+      property: Persistent/ShopItem
+      value: {fileID: 0}
+    cardBinding:
+      owner: {fileID: 11400000, guid: 87827f323b233473e8c5a0463dfb20a4, type: 2}
+      property: Canvas/ShopItem
+      value: {fileID: 0}
+    cardScene: {fileID: 11400000, guid: 87827f323b233473e8c5a0463dfb20a4, type: 2}
+    shopScene: {fileID: 11400000, guid: a267627b77d534394b63ca92b662f38c, type: 2}
+    items:
+    - data:
+        identifier: {fileID: 11400000, guid: 24745d45a78144aefbc2cbffc8101fe2, type: 2}
+        descriptor:
+          name: Lives for gold
+          description: Lives for gold
+          icon: {fileID: 0}
+          gameObject:
+            owner: {fileID: 0}
+            property: 
+            value: {fileID: 0}
+      prices:
+      - identifier: {fileID: 11400000, guid: be85653dbb81d4429a7fb10875e79dcb, type: 2}
+        amount: -10
+        type: 0
+      rewards:
+      - identifier: {fileID: 11400000, guid: a0593ed3ec3fd432ab0f124e63db7243, type: 2}
+        amount: 10
+        type: 0
+    - data:
+        identifier: {fileID: 11400000, guid: 3948b26693b5c4124b1a4cf627de461c, type: 2}
+        descriptor:
+          name: Gold for lives
+          description: Gold for lives
+          icon: {fileID: 0}
+          gameObject:
+            owner: {fileID: 0}
+            property: 
+            value: {fileID: 0}
+      prices:
+      - identifier: {fileID: 11400000, guid: a0593ed3ec3fd432ab0f124e63db7243, type: 2}
+        amount: -10
+        type: 0
+      rewards:
+      - identifier: {fileID: 11400000, guid: be85653dbb81d4429a7fb10875e79dcb, type: 2}
+        amount: 10
+        type: 0
+    - data:
+        identifier: {fileID: 11400000, guid: b0923189513a548e28cd7be4cf408793, type: 2}
+        descriptor:
+          name: Lives for gold P
+          description: Lives for gold P
+          icon: {fileID: 0}
+          gameObject:
+            owner: {fileID: 0}
+            property: 
+            value: {fileID: 0}
+      prices:
+      - identifier: {fileID: 11400000, guid: be85653dbb81d4429a7fb10875e79dcb, type: 2}
+        amount: -0.1
+        type: 1
+      rewards:
+      - identifier: {fileID: 11400000, guid: a0593ed3ec3fd432ab0f124e63db7243, type: 2}
+        amount: 0.1
+        type: 1
+    - data:
+        identifier: {fileID: 11400000, guid: 041334d7207df45f49b6cc46f2693aee, type: 2}
+        descriptor:
+          name: Teleport for gold
+          description: Teleport for gold
+          icon: {fileID: 0}
+          gameObject:
+            owner: {fileID: 0}
+            property: 
+            value: {fileID: 0}
+      prices:
+      - identifier: {fileID: 11400000, guid: be85653dbb81d4429a7fb10875e79dcb, type: 2}
+        amount: -10
+        type: 0
+      rewards:
+      - identifier: {fileID: 11400000, guid: 3b74661f964534d979822aac5bd92dc9, type: 2}
+        amount: 0
+        type: 2
+  tracked:
+  - {fileID: 11400000, guid: be85653dbb81d4429a7fb10875e79dcb, type: 2}
+  - {fileID: 11400000, guid: a0593ed3ec3fd432ab0f124e63db7243, type: 2}

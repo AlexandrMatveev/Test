@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cea35e7f269b4e719a8c6b4a2f4e76b1, type: 3}
+  m_Name: VipModuleData
+  m_EditorClassIdentifier: 
+  vip:
+    data:
+      identifier: {fileID: 11400000, guid: 74faa6bf2d62b45fdbcc73d7a33968bb, type: 2}
+      descriptor:
+        name: 
+        description: 
+        icon: {fileID: 0}
+        gameObject:
+          owner: {fileID: 11400000, guid: a267627b77d534394b63ca92b662f38c, type: 2}
+          property: Canvas/Top/VipPlate
+          value: {fileID: 0}
+    defaultDuration: 600
+    defaultChargeDuration: 120

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2eae27d09cd4f158ca715e7eceac76f, type: 3}
+  m_Name: TokensModuleData
+  m_EditorClassIdentifier: 
+  tokens:
+  - identifier: {fileID: 11400000, guid: be85653dbb81d4429a7fb10875e79dcb, type: 2}
+    descriptor:
+      descriptor:
+        name: Gold
+        description: 
+        icon: {fileID: 0}
+        gameObject:
+          owner: {fileID: 11400000, guid: a267627b77d534394b63ca92b662f38c, type: 2}
+          property: Canvas/Top/GoldPlate
+          value: {fileID: 0}
+      defaultAmount: 100
+      defaultChargeAmount: 100
+  - identifier: {fileID: 11400000, guid: a0593ed3ec3fd432ab0f124e63db7243, type: 2}
+    descriptor:
+      descriptor:
+        name: Health
+        description: 
+        icon: {fileID: 0}
+        gameObject:
+          owner: {fileID: 11400000, guid: a267627b77d534394b63ca92b662f38c, type: 2}
+          property: Canvas/Top/HealthPlate
+          value: {fileID: 0}
+      defaultAmount: 100
+      defaultChargeAmount: 10
